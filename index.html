@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tazkia Nizami</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home">
+      <div class="hero container">
+        <div>
+          <h1>Hi, I'm <span class="name">Tazkia Nizami.</span><br /></h1>
+          <h2>An undergraduate student at Institut Teknologi Bandung.</h2>
+          <p>Welcome to my personal portfolio!</p>
+          <!-- <button href="#projects" class="btn">View My Work</button> -->
+        </div>
+        <div>
+          <img src="images/hero.jpg" alt="Tazkia Nizami" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="projects container">
+        <div class="section-header">
+          <h1 class="section-title">Projects</h1>
+          <p>Here are some projects I have worked on</p>
+        </div>
+        <div class="all-projects">
+          <div class="project-item">
+            <div class="project-info">
+              <h1>SRE ITB</h1>
+              <h2>Website to promote and showcase SRE ITB</h2>
+              <p>
+                Rebuilt SRE website using T3 Stack (React, TailwindCSS, Prisma,
+                and tRPC) and is hosted on Niagahoster. <br />
+                <br />
+                <span class="note"
+                  >Note: The website is still under
+                  <strong>development</strong>.</span
+                >
+              </p>
+              <a href="http://sreitb.com">
+                <button class="btn">View Web</button>
+              </a>
+            </div>
+            <!-- <img src="images/project1.jpg" alt="Project 1" /> -->
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Nelfix</h1>
+              <h2>Task for Laboratory of Programming Selection</h2>
+              <p>
+                A full-stack web application that mimics Netflix. It was built
+                using NestJS and Handlebars. Implemented user authentication
+                using JWT Token and caching using Redis. Deployed on Koyeb.
+              </p>
+              <a href="https://github.com/TazakiN/Nelfix">
+                <button class="btn">View Repo</button>
+              </a>
+            </div>
+            <!-- <img src="images/project2.jpg" alt="Project 2" /> -->
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Wiki Race Path Finder</h1>
+              <h2>Task for Strategy Algorithm Course</h2>
+              <p>
+                A Front-End and Back-End web application that finds the shortest
+                path between two Wikipedia pages using BFS and DFS Algorithm. It
+                was built using Create React App and Go-Gin.
+              </p>
+              <a href="https://github.com/TazakiN/Tubes2_BE_4GLTE">
+                <button class="btn">View Backend Repo</button>
+              </a>
+              <a href="https://github.com/TazakiN/Tubes2_FE_4GLTE">
+                <button class="btn">View Frontend Repo</button>
+              </a>
+            </div>
+            <!-- <img src="images/projects/WikiRace.png" alt="Wiki Race" /> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <div class="skills container">
+        <div class="section-header">
+          <h1 class="section-title">Skills</h1>
+          <p>Here are some of my technical skills:</p>
+        </div>
+        <div class="all-skills">
+          <div class="skill-item">
+            <img src="images/skills/react.svg" alt="React" />
+            <h1>React</h1>
+            <p>Building dynamic user interfaces with React.</p>
+          </div>
+          <div class="skill-item">
+            <img src="images/skills/nestjs.svg" alt="NestJS" />
+            <h1>NestJS</h1>
+            <p>Developing scalable backend systems with NestJS.</p>
+          </div>
+          <div class="skill-item">
+            <img src="images/skills/tailwindcss.svg" alt="TailwindCSS" />
+            <h1>TailwindCSS</h1>
+            <p>Creating responsive designs with TailwindCSS.</p>
+          </div>
+          <div class="skill-item">
+            <img src="images/skills/js.svg" alt="JavaScript" />
+            <h1>JavaScript</h1>
+            <p>Proficient in modern JavaScript for frontend and backend.</p>
+          </div>
+          <div class="skill-item">
+            <img src="images/skills/ts.svg" alt="TypeScript" />
+            <h1>TypeScript</h1>
+            <p>Writing robust code with TypeScript.</p>
+          </div>
+          <div class="skill-item">
+            <img src="images/skills/go.svg" alt="Go" />
+            <h1>Go</h1>
+            <p>Building efficient applications using Go.</p>
+          </div>
+          <div class="skill-item">
+            <img src="images/skills/prisma2.svg" alt="Prisma" />
+            <h1>Prisma</h1>
+            <p>Using Prisma for database interaction and ORM.</p>
+          </div>
+          <div class="skill-item">
+            <img src="images/skills/nextjs.svg" alt="NextJS" />
+            <h1>NextJS</h1>
+            <p>
+              Building static and server-side rendered applications with NextJS.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="contact container">
+        <div class="section-header">
+          <h1 class="section-title">Contact Me</h1>
+          <p>
+            Feel free to reach out to me through any of the platforms below:
+          </p>
+        </div>
+        <div class="all-contacts">
+          <a href="https://instagram.com/tazkianizami" target="_blank">
+            <div class="contact-item">
+              <img src="images/contacts/ig.svg" alt="Instagram" />
+              <h2>Instagram</h2>
+              <p>@tazkianizami</p>
+            </div>
+          </a>
+          <a href="https://linkedin.com/in/tazkianizami" target="_blank">
+            <div class="contact-item">
+              <img src="images/contacts/linkedin.svg" alt="LinkedIn" />
+              <h2>LinkedIn</h2>
+              <p>Tazkia Nizami</p>
+            </div>
+          </a>
+          <a href="mailto:tazkia.nizami@gmail.com">
+            <div class="contact-item">
+              <img src="images/contacts/email3.svg" alt="Email" />
+              <h2>Email</h2>
+              <p>tazkia.nizami@gmail.com</p>
+            </div>
+          </a>
+          <a href="tel:+082113729755">
+            <div class="contact-item">
+              <img src="images/contacts/telephone.svg" alt="Phone" />
+              <h2>Phone</h2>
+              <p>+62 821 1327 9755</p>
+            </div>
+          </a>
+          <a href="https://github.com/TazakiN" target="_blank">
+            <div class="contact-item">
+              <img src="images/contacts/github.svg" alt="GitHub" />
+              <h2>GitHub</h2>
+              <p>@TazakiN</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>
+        &copy; 2024 Tazkia Nizami | Follow me on
+        <a href="https://github.com/TazakiN">GitHub</a> |
+        <a href="https://linkedin.com/in/tazkianizami">LinkedIn</a>
+      </p>
+    </footer>
+  </body>
+</html>
